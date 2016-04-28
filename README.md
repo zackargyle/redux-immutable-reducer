@@ -36,7 +36,7 @@ function listReducer(state = list, action) {
             return state;
     }
 }
-export default immutableReducer(todoReducer);
+export default immutableReducer(listReducer);
 ```
 
 #### With Objects
